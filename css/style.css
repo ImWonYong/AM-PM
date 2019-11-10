@@ -1,0 +1,9 @@
+@import "reset.css";
+@import "header.css";
+@import "nav-bar.css";
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #e6e8eb;
+}
