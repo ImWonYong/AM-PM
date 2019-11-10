@@ -1,0 +1,30 @@
+.footer {
+  background-color: #c2e8f9;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer__column {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 992px) {
+  .footers {
+    flex: 0 0 50%;
+  }
+
+  .footer__content {
+    padding-left: 30px;
+  }
+
+  .footer__icon {
+    padding-right: 30px;
+    text-align: right !important;
+  }
+
+  .footer__icon > i {
+    margin-right: 30px;
+  }
+}

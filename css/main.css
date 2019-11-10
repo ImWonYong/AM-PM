@@ -1,4 +1,5 @@
 .main__introduce {
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -13,4 +14,26 @@
   font-size: 20px;
   line-height: 250%;
   text-align: center;
+}
+
+.main__activity {
+  background-color: #e6e8eb;
+}
+.main__acticity-list {
+  width: 100%;
+}
+
+.activity__column {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 992px) {
+  .activity {
+    width: 50%;
+  }
+
+  .ord {
+    order: 2;
+  }
 }
