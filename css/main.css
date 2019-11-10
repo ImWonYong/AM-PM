@@ -1,0 +1,16 @@
+.main__introduce {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 150px auto;
+}
+.main__introduce-title {
+  margin: 30px 30px;
+  font-size: 35px;
+}
+.main__introduce-content {
+  font-size: 20px;
+  line-height: 250%;
+  text-align: center;
+}
