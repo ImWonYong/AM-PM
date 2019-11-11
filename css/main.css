@@ -28,6 +28,24 @@
   flex-wrap: wrap;
 }
 
+.activity__img {
+  height: 30rem;
+}
+
+.activity__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 7rem;
+}
+
+.activity__content-title {
+  font-size: 20px;
+  margin-bottom: 3rem;
+}
+
 @media screen and (min-width: 992px) {
   .activity {
     width: 50%;
