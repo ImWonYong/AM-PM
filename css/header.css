@@ -7,22 +7,62 @@
   justify-content: center;
 }
 
-.header__login {
+.header__login-wrap {
   width: 100%;
   display: flex;
-  align-items: center;
   justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.header__login {
+  overflow: hidden;
+  border: 2px solid #1779ba;
+  border-radius: 5000px;
+  text-align: center;
+  width: 15%;
+  background: #fefefe;
+  display: flex;
+  justify-content: center;
 }
 
-.header__login a {
+.header__login:hover {
+  border: none;
+  background-color: #1779ba;
+  transition: background-color 0.5s ease;
+}
+
+.header__login:hover .header__login-btn {
+  display: block;
+  font-size: 16px;
+  padding: 16px;
   text-decoration: none;
-  color: #333333;
-  margin-top: 30px;
-  margin-right: 30px;
+}
+
+.header__login:hover .header__login-btn:hover {
+  transition: background-color 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header__login:hover label {
+  display: none;
+}
+
+.header__login .header__login-btn {
+  display: none;
+  color: #fefefe;
+  width: 50%;
+  z-index: 1;
+}
+
+.header__login label {
+  padding: 16px;
+  color: #1779ba;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .header__title {
-  margin-top: 100px;
+  margin-top: 60px;
   margin-bottom: 30px;
   font-size: 50px;
 }
